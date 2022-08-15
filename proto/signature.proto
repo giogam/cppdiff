@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Signature {
+  map<uint32, uint64> signature = 1;
+};
